@@ -1,0 +1,14 @@
+{
+  "name": "arduino-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "serialport": "^11.0.0",
+    "socket.io": "^4.7.1"
+  }
+}
